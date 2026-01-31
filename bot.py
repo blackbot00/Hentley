@@ -3,7 +3,12 @@ from telegram.ext import (
     CallbackQueryHandler, MessageHandler, filters
 )
 from config import BOT_TOKEN
-from handlers import start, registration, dashboard, ai_chat, human_chat, edit_profile
+from handlers import start
+from handlers import registration
+from handlers import dashboard
+from handlers import ai_chat
+from handlers import human_chat
+from handlers import edit_profile
 
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 
