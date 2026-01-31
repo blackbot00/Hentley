@@ -19,4 +19,4 @@ async def dashboard_router(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif query.data == "edit":
         await query.message.reply_text(
             "✏️ Edit Profile\n\nChoose what to update ✨"
-      )
+        )
